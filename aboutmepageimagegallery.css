@@ -1,0 +1,151 @@
+html, body {margin:0;
+padding:0;}
+
+nav{width:100%;
+background-color:black;
+top:0px;
+left: 0px;
+position: fixed;
+padding: 5px;}
+
+ul li {display: inline-block;
+padding:15px;
+background-color: white;
+color: red;
+border-bottom: 5px solid black;
+list-style-type: none;
+}
+
+ul li a{color: black;
+text-decoration: none;}
+
+body{background-color: red;
+}
+
+h1{text-align: center;
+color:black;
+font-size: 75px;
+border: 5px solid white;
+box-sizing: border-box;
+font: italic;
+margin-top: 100px;
+}
+
+.left-column{width:25%;
+color:white;
+background-color:black;
+float: left;
+box-sizing: border-box;
+font-style: italic;
+}
+
+.right-column{width:75%;
+background color:black;
+float: left;
+box-sizing: border-box;
+border: 2px solid white;}
+
+.image1{width:250px;
+height: 150px;
+background-image:url("SPARTANRACE.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image2{width:250px;
+height: 150px;
+background-image:url("SAILING.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image3{width:250px;
+height: 150px;
+background-image:url("ROK.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image4{width:250px;
+height: 150px;
+background-image:url("QUINNIPIAC.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image5{width:250px;
+height: 150px;
+background-image:url("IMG_0814.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image6{width:250px;
+height: 150px;
+background-image:url("IMG_0690.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image7{width:250px;
+height: 150px;
+background-image:url("IMG_0049.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image8{width:250px;
+height: 150px;
+background-image:url("IMG_0611.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+border-radius:40px;
+}
+
+.image9{width:250px;
+height: 150px;
+background-image:url("CLAREANDCRAIG.JPG");
+background-size: cover;
+box-sizing: border-box;
+float: left;
+padding:2px;
+margin: 40px;
+align-content: center;
+border-radius:40px;
+}
+
+@media all and (max-width:600px){body{
+  background-color: red;
+  }
+}
